@@ -18,11 +18,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void initViews() {
         Button btn = (Button) findViewById(R.id.btn);
-        btn.setText("你好，世界！");
+        btn.setText("I said");
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "你好，世界！", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Hello World!", Toast.LENGTH_SHORT).show();
             }
         });
     }
